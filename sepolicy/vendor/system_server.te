@@ -1,0 +1,11 @@
+allow system_server vfmService:process signull;
+
+allow system_server vfsspi_device:dir search;
+allow system_server vfsspi_device:fifo_file rw_file_perms;
+
+# Vibrator
+allow system_server sysfs_vibrator:file read;
+
+get_prop(system_server, exported_camera_prop);
+get_prop(system_server, userspace_reboot_config_prop);
+get_prop(system_server, userspace_reboot_exported_prop);
