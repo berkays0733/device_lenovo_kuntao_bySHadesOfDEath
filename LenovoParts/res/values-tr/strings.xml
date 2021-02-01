@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Kuntao Resurrected</string>
+    <string name="advanced_settings">Kuntao Resurrected</string>
+    <string name="advanced_settings_summary">Cihaza özel ayarlar</string>
+
+    <!-- Vibration -->
+    <string name="category_vibrator">Titreşim</string>
+    <string name="vib_strength_title_head">Titreşim yoğunluğu</string>
+
+    <!-- Torch -->
+    <string name="category_torch">Fener</string>
+    <string name="yellow_torch_brightness_title_head">Sarı led maksimum parlaklığı</string>
+    <string name="white_torch_brightness_title_head">Beyaz led maksimum parlaklığı</string>
+
+    <!-- Touchscreen -->
+    <string name="touchscreen_title">Dokunma</string>
+    <string name="glove_mode_title">Yüksek dokunmatik hassasiyeti</string>
+    <string name="glove_mode_summary">Dokunmatik ekran hassasiyetini arttırarak eldiven ile kullanıma olanak verir</string>
+
+    <!-- Kcal -->
+    <string name="graphics_title">Ekran</string>
+    <string name="kcal_title">Ekran rengi</string>
+    <string name="kcal_summary">Kcal renk ayarları</string>
+    <string name="kcal_enabled_title">Kcalı etkinleştir</string>
+    <string name="kcal_enabled_summary">Kcal kullanarak ekran kalibrasyonunu açın</string>
+    <string name="kcal_red">Kırmızı</string>
+    <string name="kcal_green">Yeşil</string>
+    <string name="kcal_blue">Mavi</string>
+    <string name="kcal_saturation">Doygunluk</string>
+    <string name="kcal_contrast">Kontrast</string>
+    <string name="kcal_value">Değer</string>
+    <string name="kcal_hue">Renk</string>
+    <string name="kcal_greyscale_title">Gri tonlama</string>
+    <string name="kcal_greyscale_summary">Doygunluğu tamamen devre dışı bırak</string>
+    <string name="menu_reset">Sıfırla</string>
+    <string name="presets_list_title">Kcal ön ayarını kullan</string>
+    <string name="default_values">Varsayılan</string>
+    <string name="version_1">Sürüm 1</string>
+    <string name="version_2">Sürüm 2</string>
+    <string name="version_3">Sürüm 3</string>
+    <string name="triluminous">Triluminous</string>
+    <string name="deep_black_and_white">Koyu siyah ve beyaz</string>
+    <string name="deep_natural">Koyu doğal</string>
+    <string name="cool_amoled">Soğuk amoled</string>
+    <string name="extreme_amoled">Aşırı amoled</string>
+    <string name="warm_amoled">Sıcak amoled</string>
+    <string name="hybrid_mamba">Hybrid mamba</string>
+
+    <!-- Ambient Display -->
+    <string name="display_title">Ekran</string>
+    <string name="ambient_display_title">Ortam ekranı</string>
+    <string name="ambient_display_title_summary">Ortam ekranı ayarları</string>
+
+    <!-- Fp gestures -->
+    <string name="fp_title">Hareketler</string>
+    <string name="fp_settings_title">Parmak izi hareketleri</string>
+    <string name="fp_settings_summary">Kuntao parmak izi hareketleri</string>
+
+    <!-- Sound control -->
+    <string name="sound_title">Ses</string>
+    <string name="sound_control_title">Ses kontrolü</string>
+    <string name="sound_control_summary">Kulaklık, mikrofon ve hoparlör ses seviyesini ayarlayın</string>
+    <string name="speaker_gain">Hoparlör ses seviyesi</string>
+    <string name="headphone_gain">Kulaklık ses seviyesi</string>
+    <string name="mic_gain">Mikrofon ses seviyesi</string>
+
+    <!-- s2s -->
+    <string name="s2s_title">Kaydırarak uyutma</string>
+    <string name="category_s2s">Kaydırma</string>
+    <string name="s2s_summary">Özel kaydırma ayarları</string>
+    <string name="s2s_disabled">Devre dışı</string>
+    <string name="s2s_right">Sağa kaydır</string>
+    <string name="s2s_left">Sola kaydır</string>
+    <string name="s2s_right_or_left">Sağa veya sola kaydır</string>
+
+</resources>

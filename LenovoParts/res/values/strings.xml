@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Kuntao Resurrected</string>
+    <string name="advanced_settings">Kuntao Resurrected</string>
+    <string name="advanced_settings_summary">Additional device specific settings</string>
+
+    <!-- Vibration -->
+    <string name="category_vibrator">Vibration</string>
+    <string name="vib_strength_title_head">Vibration strength</string>
+
+    <!-- Torch -->
+    <string name="category_torch">Torch</string>
+    <string name="yellow_torch_brightness_title_head">Yellow led maximum brightness</string>
+    <string name="white_torch_brightness_title_head">White led maximum brightness</string>
+
+    <!-- Touchscreen -->
+    <string name="touchscreen_title">Touchscreen</string>
+    <string name="glove_mode_title">High touch sensitivity</string>
+    <string name="glove_mode_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+
+    <!-- Kcal -->
+    <string name="graphics_title">Graphics</string>
+    <string name="kcal_title">Display color</string>
+    <string name="kcal_summary">Display color calibration using kcal</string>
+    <string name="kcal_enabled_title">Enable kcal</string>
+    <string name="kcal_enabled_summary">Turn on display calibration using kcal</string>
+    <string name="kcal_red">Red</string>
+    <string name="kcal_green">Green</string>
+    <string name="kcal_blue">Blue</string>
+    <string name="kcal_saturation">Saturation</string>
+    <string name="kcal_contrast">Constrast</string>
+    <string name="kcal_value">Value</string>
+    <string name="kcal_hue">Hue</string>
+    <string name="kcal_greyscale_title">Greyscale</string>
+    <string name="kcal_greyscale_summary">Fully disable saturation</string>
+    <string name="menu_reset">Reset</string>
+    <string name="presets_list_title">Use kcal preset</string>
+    <string name="default_values">Default</string>
+    <string name="version_1">Version 1</string>
+    <string name="version_2">Version 2</string>
+    <string name="version_3">Version 3</string>
+    <string name="triluminous">Triluminous</string>
+    <string name="deep_black_and_white">Deep black and white</string>
+    <string name="deep_natural">Deep natural</string>
+    <string name="cool_amoled">Cool amoled</string>
+    <string name="extreme_amoled">Extreme amoled</string>
+    <string name="warm_amoled">Warm amoled</string>
+    <string name="hybrid_mamba">Hybrid mamba</string>
+
+    <!-- Ambient Display -->
+    <string name="display_title">Display</string>
+    <string name="ambient_display_title">Ambient display</string>
+    <string name="ambient_display_title_summary">Configure your ambient display</string>
+
+    <!-- Fp gestures -->
+    <string name="fp_title">Gestures</string>
+    <string name="fp_settings_title">Fingerprint gestures</string>
+    <string name="fp_settings_summary">Advanced fingerprint gestures</string>
+
+    <!-- Sound controls -->
+    <string name="sound_title">Sound</string>
+    <string name="sound_control_title">Sound control</string>
+    <string name="sound_control_summary">Setup headphones, speaker and microphone gains</string>
+    <string name="headphone_gain">Headphone gain</string>
+    <string name="speaker_gain">Speaker gain</string>
+    <string name="mic_gain">Microphone gain</string>
+
+    <!-- s2s -->
+    <string name="category_s2s">Sweep</string>
+    <string name="s2s_title">Sweep to sleep</string>
+    <string name="s2s_summary">Choose sweep positions</string>
+    <string name="s2s_disabled">Disabled</string>
+    <string name="s2s_right">Sweep right</string>
+    <string name="s2s_left">Sweep left</string>
+    <string name="s2s_right_or_left">Sweep right or left</string>
+
+</resources>
