@@ -25,34 +25,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common FluidOS stuff.
-$(call inherit-product, vendor/awaken/config/common.mk)
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lenovo/kuntao/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := awaken_kuntao
+PRODUCT_NAME := ssos_kuntao
 PRODUCT_DEVICE := kuntao
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo P2a42
 PRODUCT_MANUFACTURER := LENOVO
 
-# Fluid
-IS_PHONE := true
-TARGET_INCLUDE_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.ssos.cpu= MSM8953
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
-
-# Fluid specific properties
-# PRODUCT_PRODUCT_PROPERTIES += \
-  #ro.fluid.maintainer=Shades_Of_Death00 \
-  #ro.fluid.cpu=MSM8953
   
-AWAKEN_BUILD_TYPE := UNOFFICIAL
+SSOS_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="kuntao_row-user 7.0 NRD90N P2a42_S251_171107_ROW release-keys" \
