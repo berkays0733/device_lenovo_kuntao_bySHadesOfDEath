@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_kuntao.mk
+    $(LOCAL_DIR)/legion_kuntao.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_kuntao-user \
-    ssos_kuntao-userdebug \
-    ssos_kuntao-eng
+    legion_kuntao-user \
+    legion_kuntao-userdebug \
+    legion_kuntao-eng
