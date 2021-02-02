@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_kuntao.mk
+    $(LOCAL_DIR)/ssos_kuntao.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_kuntao-user \
-    awaken_kuntao-userdebug \
-    awaken_kuntao-eng
+    ssos_kuntao-user \
+    ssos_kuntao-userdebug \
+    ssos_kuntao-eng
