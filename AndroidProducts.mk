@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_kuntao.mk
+    $(LOCAL_DIR)/awaken_kuntao.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_kuntao-user \
-    fluid_kuntao-userdebug \
-    fluid_kuntao-eng
+    awkaen_kuntao-user \
+    awkaen_kuntao-userdebug \
+    awaken_kuntao-eng
