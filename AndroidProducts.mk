@@ -17,6 +17,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/awaken_kuntao.mk
 
 COMMON_LUNCH_CHOICES := \
-    awkaen_kuntao-user \
-    awkaen_kuntao-userdebug \
+    awaken_kuntao-user \
+    awaken_kuntao-userdebug \
     awaken_kuntao-eng
